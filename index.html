@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Tab title -->
+        <title>Grocery List</title>
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap for input area -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- link to css -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- Main page header -->
+        <header>
+            <h1>Grocery List</h1>
+            <hr />
+            <h2>Add an item to the list</h2>
+        </header>
+
+        <!-- Text area for user to enter groceries -->
+        <form id="shopping-form">
+            <input type="text" id="user-item" name="shopping-input" placeholder="what do you need from the store?" />
+            <button id="add-item">Add Item</button>
+        </form>
+
+        <!-- Element to contain list of grocery contents -->
+        <ul id="grocery-list"></ul>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script type="text/javascript" src="./assets/js/script.js">
+        </script>
+    </body>
+</html>

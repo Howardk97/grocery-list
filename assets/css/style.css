@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+}
+/* Styles the grrocery store header */
+header {
+        font-family: 'Permanent Marker', cursive;
+        background-color: pink;
+}
+
+form {
+    display: fkex;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Sets width for input bar for user items */
+#user-item {
+    width: 40%;
+}
+
+
